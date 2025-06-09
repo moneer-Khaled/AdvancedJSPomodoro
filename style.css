@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.controls button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#short-break {
+  background-color: #3b82f6;
+  color: white;
+}
+#long-break {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.pomodoro-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.pomodoro-inputs input {
+  width: 80px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.pomodoro-inputs button {
+  padding: 5px 15px;
+  font-size: 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.the-clock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.timer-display {
+  font-size: 48px;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 8px 20px;
+  font-size: 16px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #059669;
+}
+
+.hidden {
+  display: none;
+}
